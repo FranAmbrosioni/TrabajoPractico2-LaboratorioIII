@@ -1,0 +1,69 @@
+<!--
+TRABAJO PRACTICO II 
+INTEGRANTES:
+AMBROSIONI FRANCISCO
+BALLARI SANTIAGO
+LAFERLA MATIAS
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Simulador de plazos fijos</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/vue@3" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hurricane&family=Lobster&family=Palette+Mosaic&family=Quicksand:wght@700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <h1 id="TituloPrincipal">Simulador de Plazo Fijo</h1>
+    <main class="main">
+        <div id="app">
+        <review-form></review-form>
+        </div>
+    </main>
+
+    <section id="SectionTablas">
+        <h3>  Tabla de Referencia días-porcentaje  </h3>
+        <div id="Porcentaje">
+        
+    <table >
+        <thead>
+
+        <tr>
+            <td><strong>Cantidad de dias</strong></td>
+            <td><strong>Porcentaje</strong></td>
+        </tr>
+    </thead>
+        <tr>
+            <td>30-60</td>
+            <td>40</td>
+
+        </tr>
+        <tr>
+            <td>61-120</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <td>121-360</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>360-</td>
+            <td>65</td>
+        </tr>
+
+    </table>
+    </div>
+</body>
+
+</html>

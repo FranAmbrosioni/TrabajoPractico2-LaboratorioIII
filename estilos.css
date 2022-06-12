@@ -1,0 +1,170 @@
+/*
+TRABAJO PRACTICO II 
+INTEGRANTES:
+AMBROSIONI FRANCISCO
+BALLARI SANTIAGO
+LAFERLA MATIAS
+*/
+*{
+    margin: auto;
+    padding: 0;
+}
+
+body{
+    background-image: url(./Imagenes/fondoJs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1{
+    text-align: center;
+    font-family: 'Hurricane', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Palette Mosaic', cursive;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+#TituloPrincipal
+{
+    background: linear-gradient( #4af7f7,rgb(222, 222, 223));
+    font-weight: bold;
+
+}
+
+.formulario {
+
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    margin-top: 0.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 2.5rem;
+    box-sizing: border-box;
+    border-radius: 3rem;
+    background: linear-gradient( #4af7f7,rgb(222, 222, 223));
+
+}
+.formulario h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.formulario label
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3rem;
+    
+}
+
+
+.formulario button
+{
+
+ font-size: 1.6rem;
+ border-radius: 0.4rem;
+ border: none;
+ background-color: #4867f1;
+ color: aliceblue;
+ 
+ 
+}
+.errores{
+    list-style: none;
+    background-color: #f05050;
+    border-radius: 0.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#btnCalcular {
+    
+    transition-duration: 0.4s;
+}
+
+#btnCalcular:hover {
+    background-color: #01f868; /* Green */
+    color: rgb(0, 0, 0);
+}
+
+
+#primerCalculo
+{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 1.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 0.5rem;
+    background: linear-gradient( rgb(27, 119, 40),#005323);
+    font-weight: bold;
+    color: azure;
+
+}
+
+
+#tablaReinvertir{
+
+    width: 100%; 
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0.5rem;
+    background-color: #70f8a9;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#tablaReinvertir thead{
+    background-color: #005323;
+    border-bottom: solid 2px black;
+    border-top:solid 2px black;
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+    color: rgb(241, 237, 237);
+}
+#tablaReinvertir td,th{
+
+    padding: 0.2rem;
+}
+
+#tablaReinvertir tr:nth-child(even){
+    background-color:rgb(68, 214, 88);
+}
+#SectionTablas
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-bottom: 3.5rem;
+    margin-left: 35rem;
+    margin-right: 35rem;
+    border-radius: 1.5rem;
+    background: linear-gradient( #4af7f7,rgb(222, 222, 223));
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#SectionTablas table{
+    width: 100%; 
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0.5rem;
+    background-color: #70f8a9;
+}
+
+#SectionTablas td,th 
+{ 
+    padding: 0.2rem;
+}
+#SectionTablas thead{
+    background-color: #005323;
+    border-bottom: solid 2px black;
+    color: rgb(241, 237, 237);
+}
+#SectionTablas tr:nth-child(even){
+    background-color:rgb(68, 214, 88);
+}
+
+#app{
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-left: 35rem;
+    margin-right: 35rem;
+    margin-bottom: 2.5rem;
+    box-sizing: border-box;
+    border-radius: 3rem;
+    background: linear-gradient( #4af7f7,rgb(222, 222, 223));
+}
+
