@@ -1,3 +1,10 @@
+/*
+TRABAJO PRACTICO II 
+INTEGRANTES:
+AMBROSIONI FRANCISCO
+BALLARI SANTIAGO
+LAFERLA MATIAS
+*/
 let app = Vue.createApp({
   data() {
     return {};
